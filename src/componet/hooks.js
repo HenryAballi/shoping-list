@@ -23,7 +23,7 @@ const removeClick = () => {
 
   return (
     <div className= "hooks">
-      <p>You clicked <span>{count}</span> times</p>
+      <p>You clicked <span></span>{count} times</p>
       <button onClick={addClick}>
         Click me
       </button>
